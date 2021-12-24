@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    
+}
+
+section {
+    
+}
+
+
+h1.sectionHeading {
+    text-align: center;
+    display: block;
+    
+}
+.developers{
+    text-align: center;
+}
+.students{
+    text-align: center;
+}
+.developers .dev-Item{
+    width: 33%;
+    float: left;
+    
+}
+.students .students-items{
+    width: 33%;
+    float: left;
+    
+}
+
+.developers .dev-Item img {
+    width: 180px;
+    height: 180px;
+    object-fit: fill;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.students .students-items img {
+    width: 180px;
+    height: 180px;
+    object-fit: fill;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+section.phonebook{
+    
+}
+.phonebook .phonebook-items{
+    text-align: center;
+    
+}
+.phonebook .phonebook-items table{
+    
+    margin: auto;
+}
+.phonebook .phonebook-items table tr{
+
+}
+.phonebook .phonebook-items table tr th {
+    border: 1px solid rgb(61, 165, 57);
+}
+.phonebook .phonebook-items table tr td {
+    border: 1px solid rgb(61, 165, 57);
+}
+
+.marks .marks-items{
+    text-align: center;
+}
+.marks .marks-items table {
+    margin: auto;
+    border: 2px solid rgb(61, 165, 57);
+}
+.marks .marks-items table tr th{
+    border: 1px solid rgb(61, 165, 57);
+}
+.marks .marks-items table tr .thr{
+    border: 1px solid rgb(61, 165, 57);
+    padding: 5px 5px;
+}
+.marks .marks-items table tr td{
+    border: 1px solid rgb(61, 165, 57);
+    padding: 5px 5px;
+}
+
+
+
+
+
+
+/* .team{
+    width: 100%;
+    margin: 100px auto ;
+    display: block;
+
+}
+.team .teamItem{
+    text-align: center;
+    width: 33.3%;
+    float: left;
+    
+    
+}
+.team .teamItem img {
+    
+    width: 150px;
+    height: 180px;
+    object-fit: fill;
+    border-radius: 30%;
+    display: block;
+    margin: auto;
+} */
